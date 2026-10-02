@@ -1,0 +1,37 @@
+﻿{
+  "dataset": "damascus_nasa_hourly2.csv",
+  "timestamps": "UTC",
+  "local_utc_offset_h": 3,
+  "hourly_class_thresholds_wm2": [
+    302.02,
+    612.7
+  ],
+  "daily_class_thresholds_kwh_m2": [
+    4.1071912,
+    7.024197999999999
+  ],
+  "pv": {
+    "capacity_kw": 3.0,
+    "system_efficiency": 0.8,
+    "gamma": -0.004,
+    "cell_temp_rise": 0.03125
+  },
+  "battery": {
+    "capacity_kwh": 5.0,
+    "initial_soc_pct": 70.0,
+    "eta_charge": 0.95,
+    "eta_discharge": 0.95,
+    "max_rate_c": 0.5
+  },
+  "chosen_model": "Random Forest",
+  "hot_day_threshold_c": 30.0,
+  "test_period": [
+    "2024-05-09",
+    "2025-12-31"
+  ],
+  "main_result": {
+    "normal_pct": 30.86621776058065,
+    "smart_pct": 89.15602752405266,
+    "improvement_pp": 58.28980976347201
+  }
+}

@@ -1,0 +1,8 @@
+Appliance,Power_kW,Duration_h,Category,Normal_Start,Window_Start,Window_End,Schedulable,Only_On_Hot_Days,Energy_kWh,Label
+Washing Machine,1.5,1.5,Flexible,19,8,17,True,False,2.25,SIMULATED/ASSUMED
+Dishwasher,1.8,1.5,Flexible,21,8,20,True,False,2.7,SIMULATED/ASSUMED
+Water Heater,2.0,2.0,Important,6,6,15,True,False,4.0,SIMULATED/ASSUMED
+Refrigerator,0.15,24.0,Essential,0,0,0,False,False,3.5999999999999996,SIMULATED/ASSUMED
+Air Conditioner,2.0,4.0,Important,14,11,18,True,True,8.0,SIMULATED/ASSUMED
+Water Pump,0.75,1.0,Flexible,7,6,17,True,False,0.75,SIMULATED/ASSUMED
+TV,0.1,4.0,Flexible,19,19,19,False,False,0.4,SIMULATED/ASSUMED
